@@ -10,6 +10,7 @@ import Menu from './pages/Menu';
 import MenuEnhanced from './pages/MenuEnhanced';
 import Login from './pages/Login';
 import Register from './pages/Register';
+import RegisterEnhanced from './pages/RegisterEnhanced';
 import Dashboard from './pages/Dashboard';
 import DashboardEnhanced from './pages/DashboardEnhanced';
 import Orders from './pages/Orders';
@@ -80,6 +81,14 @@ function App() {
               element={
                 <PublicRoute>
                   <Register />
+                </PublicRoute>
+              } 
+            />
+            <Route 
+              path="/register-enhanced" 
+              element={
+                <PublicRoute>
+                  <RegisterEnhanced />
                 </PublicRoute>
               } 
             />
